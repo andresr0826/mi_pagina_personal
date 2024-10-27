@@ -3,19 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <title>Lost: Contacto</title>
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="css/estilos.css">
     <link href='https://fonts.googleapis.com/css?family=rubik' rel='stylesheet'>
 </head>
-<body>
-    <div id="barra_nav">
+<header>
+    <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="biografia.html">Argumento</a></li>
             <li><a href="portfolio.html">Personajes</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href=contacto.html>Contacto</a></li>
         </ul>
-    </div>
-    <h2>Contacto</h2>
+    </nav>
+</header>
+<body>
+
+    <h2 class="centrado">Formulario de contacto</h2>
+    <div class="animacion_num"><p>>: 4 8 15 16 23 42</p></div>
+
+    <form action="/enviar" method="post">
+        
+
+        <label>Nombre*:</label>
+        <input type="text" required>
+        
+
+        <label>Apellidos*:</label>
+        <input type="text" required>
+
+
+        <label>Correo Electrónico*:</label>
+        <input type="email" required>
+
+        <label>Teléfono:</label>
+        <input type="tel">
+
+
+        <label>Mensaje*:</label>
+        <textarea rows="6" required></textarea>
+
+        <label>
+            <input type="checkbox">
+            Deseo inscribirme a la newsletter
+        </label>
+        
+        <button type="submit">Enviar</button><br><br>
+        <small>Los campos con * son obligatorios.</small>
+    </form>
 
 </body>
+<footer>
+
+    <ul class="redes_sociales">
+        <li><a href="https://www.instagram.com" target="_blank"><img src="images/instagram.png"></a></li>
+        <li><a href="https://www.facebook.com" target="_blank"><img src="images/facebook.png"></a></li>
+        <li><a href="https://www.tiktok.com" target="_blank"> <img src="images/tiktok.png"></a></li>
+        <li><a href="https://www.x.com" target="_blank"><img src="images/twitter.png"></a></li>
+    </ul>
+
+    <div>
+        <p>© 2024 Andrés Rojas Ríos</p>
+    </div>
+</footer>
 </html>
