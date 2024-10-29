@@ -52,7 +52,7 @@ strong {
   text-align: center;
 }
 
-/* Imagen principal */
+/* Index */
 #contenedor_imagen_index {
   text-align: center; /*comprobar si es necesario*/
 }
@@ -64,6 +64,17 @@ strong {
   transform: translate(-50%, -50%); 
   font-size: 60px; 
 }
+
+#contenedor_video_index {
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 50px;
+  margin-bottom: 50px;
+
+}
+
 
 /* menú de navegación */
 nav {
@@ -172,9 +183,12 @@ footer p {
 form {
   background-color: #1a1a1a;
   border-radius: 10px;
-  padding: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 100px;
+  padding-right: 100px;
   max-width: 400px;
-  margin: 20px auto;
+  margin: 50px auto;
 }
 
 form label {
