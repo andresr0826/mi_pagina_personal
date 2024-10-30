@@ -59,7 +59,7 @@ strong {
 
 #titulo_imagen {
   position: absolute; 
-  top: 20%; 
+  top: 30%; 
   left: 50%; 
   transform: translate(-50%, -50%); 
   font-size: 60px; 
@@ -69,10 +69,16 @@ strong {
 
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   gap: 50px;
   margin-bottom: 50px;
 
+}
+
+#img_curiosidades {
+  float: right;
+
+  margin-left: 50px;
 }
 
 
@@ -155,8 +161,8 @@ footer p {
 }
 
 .imagen_per { /* contenedor de cada imagen*/
-  width: 250px; 
-  height: 350px;
+  width: 200px; 
+  height: 280px;
   text-align: center; 
   box-sizing: border-box; 
 }
@@ -185,8 +191,8 @@ form {
   border-radius: 10px;
   padding-top: 40px;
   padding-bottom: 40px;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 80px;
+  padding-right: 80px;
   max-width: 400px;
   margin: 50px auto;
 }
